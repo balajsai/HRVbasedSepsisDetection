@@ -9,11 +9,17 @@ Requirements
 
 To run the scripts in this project, you will need Python installed along with several data science libraries. Please refer to requirements.txt for a detailed list of dependencies.
 Setup Instructions
+Clone this repository to your local machine:
 
-git clone [HRVbasedSepsisDetection](https://github.com/balajsai/HRVbasedSepsisDetection.git)
+    git clone [HRVbasedSepsisDetection](https://github.com/balajsai/HRVbasedSepsisDetection.git)
 
-pip install -r requirements.txt
+Install the required libraries:
 
-python hrvsepsis3.py
+    pip install -r requirements.txt
+
+Run the Python script:
+
+    python hrvsepsis3.py
+
 
 The dataset used in this research, authored by Kuan-Fu Chen from Chang Gung University College of Medicine, is titled “Derivation and Validation of Heart Rate Variability-Based Scoring Models for Continuous Risk Stratification in Patients with Suspected Sepsis in the Emergency Department,” published on 9 December 2020\cite{Chen}. This HRV sepsis dataset provides a comprehensive collection of heart rate variability metrics, essential for developing machine learning models to detect early signs of Sepsis3, thereby offering a multidimensional representation of HRV as potential biomarkers for diagnostics in the clinical context.
