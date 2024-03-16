@@ -1,18 +1,59 @@
-# Simpulate data as provided by the user
-data = [
-    ["Features", "t statistic for Sepsis", "p value for Sepsis"],
-    ["Mean.rate", "10.8753397", "3.40E-27"],
-    ["Coefficient.of.variation", "-11.176121", "1.31E-28"],
-    ["Poincar..SD1", "-15.068272", "4.82E-50"],
-    ["Poincar..SD2", "-14.135262", "2.22E-44"],
-    # Add the rest of your data here in a similar format
-]
-
-# Convert data to markdown table format
-markdown_table = "| " + " | ".join(data[0]) + " |\n"
-markdown_table += "|---" * len(data[0]) + "|\n"
-for row in data[1:]:
-    markdown_table += "| " + " | ".join(row) + " |\n"
-
-# The markdown_table variable now contains the Markdown table
-markdown_table
+| Features | t statistic for Sepsis | p value for Sepsis |
+|---|---|---|
+| Mean.rate | 10.8753397 | 3.40E-27 |
+| Coefficient.of.variation | -11.176121 | 1.31E-28 |
+| Poincar..SD1 | -15.068272 | 4.82E-50 |
+| Poincar..SD2 | -14.135262 | 2.22E-44 |
+| LF.HF.ratio.LS | 4.82192781 | 1.47E-06 |
+| LF.Power.LS | -5.284034 | 1.33E-07 |
+| HF.Power.LS | -3.7573382 | 0.000174 |
+| DFA.Alpha.1 | 2.64334252 | 0.0082389 |
+| DFA.Alpha.2 | 8.11074526 | 6.50E-16 |
+| Largest.Lyapunov.exponent | 2.88938425 | 0.00387922 |
+| Correlation.dimension | 2.13425074 | 0.03287851 |
+| Power.Law.Slope.LS | -15.190476 | 8.27E-51 |
+| Power.Law.Y.Intercept.LS | -14.074718 | 5.05E-44 |
+| DFA.AUC | -17.333321 | 4.06E-65 |
+| Multiscale.Entropy | -1.5564107 | 0.11968386 |
+| VLF.Power.LS | 15.7574709 | 1.96E-54 |
+| Complexity | 11.8317226 | 8.27E-32 |
+| eScaleE | 3.27745918 | 0.00105576 |
+| pR | -3.9179435 | 9.07E-05 |
+| pD | 0.10304455 | 0.91793241 |
+| dlmax | -2.1656136 | 0.03039537 |
+| sedl | 3.79906148 | 0.00014725 |
+| pDpR | 5.70010812 | 1.28E-08 |
+| pL | -1.0817991 | 0.2794023 |
+| vlmax | -7.2983727 | 3.45E-13 |
+| sevl | 0.93269009 | 0.35103222 |
+| shannEn | 2.46673912 | 0.01367357 |
+| PSeo | -15.46233 | 1.56E-52 |
+| Teo | -15.945248 | 1.17E-55 |
+| SymDp0 2 | 10.7332327 | 1.53E-26 |
+| SymDp1 2 | -12.683487 | 3.21E-36 |
+| SymDp2 2 | -6.680078 | 2.69E-11 |
+| SymDfw 2 | 10.0579826 | 1.54E-23 |
+| SymDse 2 | -12.084461 | 4.35E-33 |
+| SymDce 2 | -9.0226485 | 2.71E-19 |
+| formF | 8.01591383 | 1.40E-15 |
+| gcount | 17.5365577 | 1.47E-66 |
+| sgridAND | 17.8933327 | 3.97E-69 |
+| sgridTAU | -10.761463 | 1.14E-26 |
+| sgridWGT | -11.184116 | 1.20E-28 |
+| aFdP | -23.745015 | 3.07E-117 |
+| fFdP | -24.790942 | 5.93E-127 |
+| IoV | -11.989653 | 1.32E-32 |
+| KLPE | 11.3065295 | 3.13E-29 |
+| AsymI | 7.82834645 | 6.18E-15 |
+| CSI | 7.98434886 | 1.80E-15 |
+| CVI | -14.44244 | 3.30E-46 |
+| ARerr | -7.6461357 | 2.54E-14 |
+| histSI | 6.38662977 | 1.88E-10 |
+| MultiFractal c1 | -7.4315943 | 1.29E-13 |
+| MultiFractal c2 | 2.68924205 | 0.00718901 |
+| SDLEalpha | -3.2914881 | 0.00100461 |
+| SDLEmean | -3.0370577 | 0.00240329 |
+| QSE | -11.410887 | 9.82E-30 |
+| Hurst.exponent | -11.428878 | 8.03E-30 |
+| mean | -11.762226 | 1.84E-31 |
+| median | -10.229411 | 2.77E-24 |
