@@ -10,15 +10,9 @@ Requirements
 To run the scripts in this project, you will need Python installed along with several data science libraries. Please refer to requirements.txt for a detailed list of dependencies.
 Setup Instructions
 
-    Clone this repository to your local machine:
-
-git clone HRVbasedSepsisDetection
-
-    Install the required libraries:
+git clone [HRVbasedSepsisDetection](https://github.com/balajsai/HRVbasedSepsisDetection.git)
 
 pip install -r requirements.txt
-
-    Run the Python script:
 
 python hrvsepsis3.py
 
