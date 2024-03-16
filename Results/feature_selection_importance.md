@@ -1,15 +1,7 @@
 | Features List name  | Features | 
 |---|---|
-| Xgboost | SI> 1, Mean.rate, Coefficient.of.variation,
-Poincar..SD1, Poincar..SD2, LF.HF.ratio.LS,
-LF.Power.LS, HF.Power.LS, DFA.Alpha.1,
-Correlation.dimension, Power.Law.Slope.LS,
-Power.Law.Y.Intercept.LS, DFA.AUC,
-Multiscale.Entropy, VLF.Power.LS, Complexity,
-pR, pD, dlmax, sedl, pDpR, vlmax, shannEn,
-PSeo, Teo, SymDp0 2, SymDp1 2, SymDp2 2,
-SymDfw 2, SymDse 2, SymDce 2, formF, gcount,
-sgridAND, sgridTAU, sgridWGT, aFdP, fFdP,
-IoV, KLPE, AsymI, CSI, CVI, ARerr, histSI,
-MultiFractal c1, MultiFractal c2, SDLEalpha,
-SDLEmean, QSE, Hurst.exponent, mean, median | 
+| Xgboost | SI> 1, Mean.rate, Coefficient.of.variation,Poincar..SD1, Poincar..SD2, LF.HF.ratio.LS,LF.Power.LS, HF.Power.LS, DFA.Alpha.1,Correlation.dimension, Power.Law.Slope.LS,Power.Law.Y.Intercept.LS, DFA.AUC,Multiscale.Entropy, VLF.Power.LS, Complexity,pR, pD, dlmax, sedl, pDpR, vlmax, shannEn,PSeo, Teo, SymDp0 2, SymDp1 2, SymDp2 2,SymDfw 2, SymDse 2, SymDce 2, formF, gcount,sgridAND, sgridTAU, sgridWGT, aFdP, fFdP,IoV, KLPE, AsymI, CSI, CVI, ARerr, histSI,MultiFractal c1, MultiFractal c2, SDLEalpha,SDLEmean, QSE, Hurst.exponent, mean, median | 
+| Randomforest | Mean.rate, Poincar..SD1, Poincar..SD2,LF.HF.ratio.LS, LF.Power.LS, HF.Power.LS,Power.Law.Slope.LS, Power.Law.Y.Intercept.LS,DFA.AUC, VLF.Power.LS, Complexity, shannEn,PSeo, Teo, gcount, sgridAND, aFdP, fFdP, IoV,KLPE, AsymI, CVI, ARerr, QSE, Hurst.exponent | 
+| Boruta | Mean.rate, Coefficient.of.variation, Poincar..SD1,Poincar..SD2, LF.HF.ratio.LS, LF.Power.LS,HF.Power.LS, DFA.Alpha.1, DFA.Alpha.2,Correlation.dimension, Power.Law.Slope.LS,Power.Law.Y.Intercept.LS, DFA.AUC,Multiscale.Entropy, VLF.Power.LS, Complexity,vlmax, shannEn, PSeo, Teo, SymDp2 2, gcount,sgridAND, sgridWGT, aFdP, fFdP, IoV, KLPE,AsymI, CSI, CVI, ARerr, MultiFractal c1,MultiFractal c2, SDLEalpha, SDLEmean, QSE,Hurst.exponent, mean, median,formF, sgridTAU | 
+| Bootstrap | Mean.rate, Coefficient.of.variation, Poincar..SD1,Poincar..SD2, LF.HF.ratio.LS, LF.Power.LS,HF.Power.LS, DFA.Alpha.1, DFA.Alpha.2,Largest.Lyapunov.exponent, Correlation.dimension,Power.Law.Slope.LS, Power.Law.Y.Intercept.LS,DFA.AUC, VLF.Power.LS, Complexity, eScaleE,pR, dlmax, sedl, pDpR, vlmax, shannEn, PSeo, Teo,SymDp0 2, SymDp1 2, SymDp2 2, SymDfw 2,SymDse 2, SymDce 2, formF, gcount, sgridAND,sgridTAU, sgridWGT, aFdP, fFdP, IoV, KLPE,AsymI, CSI, CVI, ARerr, histSI, MultiFractal c1,MultiFractal c2, SDLEalpha, SDLEmean, QSE, Hurst.exponent, mean, median | 
+| Boruta bootstrap | Mean.rate, Coefficient.of.variation, Poincar..SD1,Poincar..SD2, LF.HF.ratio.LS, LF.Power.LS,HF.Power.LS, DFA.Alpha.1, Correlation.dimension,Power.Law.Slope.LS,Power.Law.Y.Intercept.LS,DFA.AUC,VLF.Power.LS, Complexity, vlmax,shannEn, PSeo, Teo, SymDp2 2, gcount, sgridAND,aFdP, fFdP, IoV, KLPE, AsymI, CSI, CVI, ARerr,MultiFractal c1, MultiFractal c2, SDLEalpha,SDLEmean, QSE, Hurst.exponent, mean, median,DFA.Alpha.2, formF, sgridTAU, sgridWGT | 
