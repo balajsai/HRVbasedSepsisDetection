@@ -22,6 +22,4 @@ pip install -r requirements.txt
 
 python hrvsepsis3.py
 
-Acknowledgments
-
-This work was a part of a larger study conducted by Sai Balaji, a dedicated researcher passionate about leveraging technology for medical advancements. For more detailed insights into the methodology, results, and discussions, readers are encouraged to refer to the complete research paper included in this repository.
+The dataset used in this research, authored by Kuan-Fu Chen from Chang Gung University College of Medicine, is titled “Derivation and Validation of Heart Rate Variability-Based Scoring Models for Continuous Risk Stratification in Patients with Suspected Sepsis in the Emergency Department,” published on 9 December 2020\cite{Chen}. This HRV sepsis dataset provides a comprehensive collection of heart rate variability metrics, essential for developing machine learning models to detect early signs of Sepsis3, thereby offering a multidimensional representation of HRV as potential biomarkers for diagnostics in the clinical context.
