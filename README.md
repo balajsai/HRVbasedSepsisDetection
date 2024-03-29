@@ -1,7 +1,7 @@
 Harnessing Heart Rate Variability for Sepsis Detection
 Overview
 
-This project is based on the original research, "Harnessing Heart Rate Variability: A Machine Learning Approach to the Early Detection and Predictive Monitoring of Sepsis3," by Sai Balaji at the Academy of Science and Technology, The College Park High School, The Woodlands, Texas. The study focuses on developing an effective predictive model for early Sepsis3 detection by leveraging Heart Rate Variability (HRV) as a biomarker and utilizing various machine learning techniques, including XGBoost, Random Forest, and neural networks.
+This project is based on the original research, "Harnessing Heart Rate Variability: A Machine Learning Approach to the Early Detection and Predictive Monitoring of Sepsis3," by Sai Balaji at the Academy of Science and Technology, The Woodlands College Park High School, The Woodlands, Texas, USA. The study focuses on developing an effective predictive model for early Sepsis3 detection by leveraging Heart Rate Variability (HRV) as a biomarker and utilizing various machine learning techniques, including XGBoost, Random Forest, and neural networks.
 Abstract
 
 The study highlights the application of specific feature selection methods to enhance the model's performance, which yielded significant metrics of precision, recall, and F1-score. Furthermore, the interpretability of the model was augmented through Local Interpretable Model-agnostic Explanations (LIME), demonstrating its potential as a reliable sepsis alert system. Through this research, the efficacy of HRV in predicting sepsis is underscored, providing a foundation for further advancements in predictive medical monitoring systems.
